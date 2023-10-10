@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+        
+      <table align="center">
+        <caption>
+          Registration form
+        </caption>
+        <form action="./submit.html">
+          <tr>
+            <th>Studen Name</th>
+            <td>
+              <input type="text" name="Sname" id="Sname" required>
+            </td>
+          </tr>
+          <tr>
+            <th>Father's Name</th>
+            <td>
+              <input type="text" name="Fname" id="Fname" required>
+            </td>
+          </tr>
+          <tr>
+            <th>Mother's Name</th>
+            <td>
+              <input type="text" name="Mname" id="Mname">
+            </td>
+          </tr>
+          <tr>
+            <th>Date Of Birth</th>
+            <td>
+              <input type="date" name="birth" id="birth" required>
+            </td>
+          </tr>
+          <tr>
+            <th>Gender</th>
+            <td>
+              <label  for="male">Male</label>
+              <input type="radio" name="gender" id="male" required>
+              <label for="female">Female</label>
+              <input type="radio" name="gender" id="female" required>
+            </td>
+          </tr>
+          <tr>
+            <th>Email ID</th>
+            <td>
+              <input type="email" name="email" id="email" required>
+            </td>
+          </tr>
+          <tr>
+            <th>Mobile No.</th>
+            <td>
+              <input type="n" name="number" id="number" required>
+            </td>
+          </tr>
+          <tr>
+            <th>Address</th>
+            <td>
+              <textarea name="address" id="address" cols="25" rows="5"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <th>State</th>
+            <td>
+              <select name="state" id="state">
+                <option disabled selected value="yourState">Your State</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="afghanistan">Afghanistan</option>
+                <option value="usa">USA</option>
+                <option value="china">China</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>City</th>
+            <td>
+              <input type="text" name="city" id="city">
+            </td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>
+              <button type="submit">Submit</button>
+            </td>
+          </tr>
+        </form>
+      </table>
+    </main>
+  </body>
+</html>
