@@ -15,31 +15,31 @@
         </caption>
         <form action="./submit.html">
           <tr>
-            <th>Studen Name</th>
+            <th scope="row">Studen Name</th>
             <td>
               <input type="text" name="Sname" id="Sname" required>
             </td>
           </tr>
           <tr>
-            <th>Father's Name</th>
+            <th scope="row">Father's Name</th>
             <td>
               <input type="text" name="Fname" id="Fname" required>
             </td>
           </tr>
           <tr>
-            <th>Mother's Name</th>
+            <th scope="row">CNIC No</th>
             <td>
-              <input type="text" name="Mname" id="Mname">
+              <input type="text" name="cnic" id="cnic" required>
             </td>
           </tr>
           <tr>
-            <th>Date Of Birth</th>
+            <th scope="row">Date Of Birth</th>
             <td>
               <input type="date" name="birth" id="birth" required>
             </td>
           </tr>
           <tr>
-            <th>Gender</th>
+            <th scope="row">Gender</th>
             <td>
               <label  for="male">Male</label>
               <input type="radio" name="gender" id="male" required>
@@ -48,25 +48,25 @@
             </td>
           </tr>
           <tr>
-            <th>Email ID</th>
+            <th scope="row">Email ID</th>
             <td>
               <input type="email" name="email" id="email" required>
             </td>
           </tr>
           <tr>
-            <th>Mobile No.</th>
+            <th scope="row">Mobile No</th>
             <td>
               <input type="n" name="number" id="number" required>
             </td>
           </tr>
           <tr>
-            <th>Address</th>
+            <th scope="row">Address</th>
             <td>
               <textarea name="address" id="address" cols="25" rows="5"></textarea>
             </td>
           </tr>
           <tr>
-            <th>State</th>
+            <th scope="row">State</th>
             <td>
               <select name="state" id="state">
                 <option disabled selected value="yourState">Your State</option>
@@ -78,14 +78,14 @@
             </td>
           </tr>
           <tr>
-            <th>City</th>
+            <th scope="row">City</th>
             <td>
               <input type="text" name="city" id="city">
             </td>
           </tr>
           <tr>
-            <th></th>
-            <td>
+            <!-- <th colspan="2"></th> -->
+            <td colspan="2" align="center">
               <button type="submit">Submit</button>
             </td>
           </tr>
